@@ -1,9 +1,10 @@
 class HomeWorkOne {
+
     public static void main(String[] args) {
-    printThreeWords();
-    checkSumSing();
-    printColor();
-    compareNumbers();
+        printThreeWords();
+        checkSumSing();
+        printColor();
+        compareNumbers();
     }
     
     static void printThreeWords() {
@@ -14,10 +15,7 @@ class HomeWorkOne {
     
     static void checkSumSing() {
 		int a = 2, b = 3;
-		if (a+b >= 0) {
-			System.out.println("Сумма положительная");
-	    } else {
-			System.out.println("Сумма отрицательная");
+	    System.out.println(a+b>=0? "Сумма положительная" : "Сумма отрицательная");
 	    }
     }			
 
